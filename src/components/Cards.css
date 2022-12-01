@@ -1,0 +1,111 @@
+@media (max-width: 540px) {
+    .card-body {
+      margin: 0 0 0 0;
+      width: 100%;
+      padding: 0 0.2rem 0 0.2rem;
+    }
+  
+    /* .rank {
+      display: flex;
+      align-items: center;
+      top: 50%;
+      width: 10%;
+      justify-content: center;
+    } */
+  
+    .name {
+      margin-right: 0.5rem;
+      font-size: 14px;
+    }
+  
+    .status {
+      margin-right: 1rem;
+      font-size: 14px;
+      opacity: 70%;
+    }
+  
+    .abyss {
+      font-size: 10px;
+    }
+  }
+  
+  .profile-body {
+    border: 2px solid rgba(45, 62, 87, 0.5);
+    border-radius: 8px;
+    margin-top: 2rem;
+    transition: ease-out 0.5s;
+    margin-bottom: 3rem;
+    width: 60%;
+    justify-content: center;
+  }
+  
+  .profile-body img {
+    width: 100%;
+  }
+  
+  .profile-body:hover {
+    border: 2px solid rgba(45, 180, 224, 1);
+  }
+  
+  .profile-body:hover .rank {
+    color: rgb(21, 230, 245);
+  }
+  
+  .profileCard {
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+  }
+  
+  .profile-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .profile-description img {
+    width: 30%
+  }
+
+
+  .p-name {
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+  }
+  
+  .p-status {
+    font-family: "Outfit", sans-serif;
+    color: rgba(31, 110, 136, 1);
+    transition: ease-out 0.3s;
+    margin-bottom: 1rem;
+  }
+  
+  .p-tag:hover {
+    color: rgb(21, 230, 245);
+    transition: ease-in 0.3s;
+  }
+  
+  .text-profile {
+    color: rgba(31, 110, 136, 1);
+    font-size: 20px;
+  }
+  
+  .p-level {
+    margin-bottom: 1rem;
+    font-size: 24px;
+  }
+  
+  .p-achievements {
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .p-abyss {
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }

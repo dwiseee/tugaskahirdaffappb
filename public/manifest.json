@@ -1,0 +1,25 @@
+{
+  "short_name": "Genshin Profile",
+  "name": "Genshin Profile Searcher",
+  "icons": [
+    {
+      "src": "Hydro.png",
+      "sizes": "360x360",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Hydro.png",
+      "type": "image/png",
+      "sizes": "360x360"
+    },
+    {
+      "src": "Hydro.png",
+      "type": "image/png",
+      "sizes": "360x360"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
